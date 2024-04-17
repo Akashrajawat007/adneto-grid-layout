@@ -11,7 +11,7 @@
   color: white;
   background-color: #1e91ff;
   font-size: larger;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 @media (max-width: 800px){
