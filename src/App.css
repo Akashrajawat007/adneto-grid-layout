@@ -1,0 +1,14 @@
+.App{
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+}
+
+.Card{
+  height: 80px;
+  padding: 5px;
+  color: white;
+  background-color: #1e91ff;
+  font-size: larger;
+}
