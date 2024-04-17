@@ -7,8 +7,21 @@
 
 .Card{
   height: 80px;
-  padding: 5px;
+  padding: 10px;
   color: white;
   background-color: #1e91ff;
   font-size: larger;
+  text-transform: capitalize;
+}
+
+@media (max-width: 800px){
+  .App{
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px){
+  .App{
+    grid-template-columns: 1fr;
+  }
 }
